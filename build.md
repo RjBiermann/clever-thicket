@@ -5,7 +5,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: RjBiermann/brave-waffle/patches-1.0.4.mpp  
-[Changelog](https://github.com/RjBiermann/brave-waffle/releases/tag/v1.0.4)
+Patches: RjBiermann/brave-waffle/patches-1.1.0.mpp  
+[Changelog](https://github.com/RjBiermann/brave-waffle/releases/tag/v1.1.0)
 
 CLI: MorpheApp/morphe-desktop/morphe-desktop-1.16.0-all.jar    

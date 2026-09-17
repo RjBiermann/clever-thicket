@@ -3,8 +3,8 @@ parallel-jobs = 1
 
 # dlurl values starting with "b64:" are base64-encoded URLs (kept out of plain text)
 
-[AIO-Streamer]
-app-name = "AIO Streamer"
+[AIS]
+app-name = "AIS"
 patches-source = "RjBiermann/brave-waffle"
 patches-version = "latest"
 cli-source = "MorpheApp/morphe-desktop"

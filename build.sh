@@ -113,6 +113,10 @@ for table_name in $(toml_get_table_names); do
 			app_args[${dl_from}_dlurl]=${app_args[${dl_from}_dlurl]%/}
 			app_args[${dl_from}_dlurl]=${app_args[${dl_from}_dlurl]%download}
 			app_args[${dl_from}_dlurl]=${app_args[${dl_from}_dlurl]%/}
+			# "b64:" prefix = base64-encoded URL, decoded here so it never sits in plain text
+			if [[ ${app_args[${dl_from}_dlurl]} == 'b64:'* ]]; then
+				app_args[${dl_from}_dlurl]=$(base64 -d <<<"${app_args[${dl_from}_dlurl]#b64:}")
+			fi
 			app_args[dl_from]=${dl_from}
 		else
 			app_args[${dl_from}_dlurl]=""

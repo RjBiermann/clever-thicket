@@ -1,6 +1,6 @@
-# AGENTS.md — builder (j-hc revanced-magisk-module fork)
+# AGENTS.md — builder (clever-thicket)
 
-GitHub repo: `RjBiermann/revanced-magisk-module` (fork of j-hc/revanced-magisk-module).
+GitHub repo: `RjBiermann/clever-thicket` (standalone; based on j-hc/revanced-magisk-module).
 Produces the patched APK + Magisk module zip and publishes them as releases
 (tag is a plain incrementing number, `1`, `2`, … used as NEXT_VER_CODE).
 

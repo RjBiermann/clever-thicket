@@ -42,3 +42,9 @@ Single app table `[AIS]` (codename; do not spell the app name in this repo).
   otherwise users lose update compatibility.
 - Local build needs `GITHUB_TOKEN` (gh auth token works) for prebuilts download;
   build outputs land in `build/` (gitignored), scratch in `temp/` (safe to rm).
+
+## Known issue: x86 TV emulator
+
+Builder release APKs can't install on x86 TV emulators (`INSTALL_FAILED_NO_MATCHING_ABIS`
+— utils.sh strips lib/x86* even for arch=all; fine for real arm TVs). For TV emulator
+testing, patch locally with the morphe CLI instead (keeps all ABIs) — see `../AGENTS.md`.

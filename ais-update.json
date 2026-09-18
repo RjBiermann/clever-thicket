@@ -1,6 +1,6 @@
 {
-  "version": "v6.7.1 (patches 1.6.0.mpp)",
-  "versionCode": 8,
-  "zipUrl": "https://github.com/RjBiermann/clever-thicket/releases/download/8/ais-morphe-module-v6.7.1-all.zip",
+  "version": "v6.7.1 (patches 1.7.1.mpp)",
+  "versionCode": 9,
+  "zipUrl": "https://github.com/RjBiermann/clever-thicket/releases/download/9/ais-morphe-module-v6.7.1-all.zip",
   "changelog": "https://raw.githubusercontent.com/RjBiermann/clever-thicket/update/build.md"
 }

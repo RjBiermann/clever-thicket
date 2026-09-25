@@ -13,5 +13,6 @@ rv-brand = "Morphe"
 build-mode = "both"
 pkg-name = "com.streamdev.aiostreamer"
 version = "6.7.1"
-patcher-args = "--bytecode-mode=FULL"
+patcher-args = "--bytecode-mode=STRIP_SAFE"
+remove-rv-integrations-checks = false
 direct-dlurl = "b64:aHR0cHM6Ly9wb3JuLWFwcC5jb20vZG93bmxvYWQ="

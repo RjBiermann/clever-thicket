@@ -591,7 +591,7 @@ patch_apk() {
 	# TODO: remove this later
 	local cli_name
 	cli_name=$(basename "$cli_jar")
-	if [ "${cli_name::8}" = revanced ]; then cmd+=" -b"; else cmd+=" --bytecode-mode=STRIP_SAFE"; fi
+	if [ "${cli_name::8}" = revanced ]; then cmd+=" -b"; fi
 
 	# if [ "$OS" = Android ]; then cmd+=" --custom-aapt2-binary='${AAPT2}'"; fi
 	pr "$cmd"
